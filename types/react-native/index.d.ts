@@ -804,6 +804,11 @@ export interface TextPropsAndroid {
      * default is `highQuality`.
      */
     textBreakStrategy?: 'simple' | 'highQuality' | 'balanced';
+    
+    /**
+     * Specifies the disabled state of the text view for testing purposes.
+     */
+    disabled?: boolean;
 }
 
 // https://facebook.github.io/react-native/docs/text.html#props
